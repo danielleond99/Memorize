@@ -8,28 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    let contentCards: [String] = ["1", "2", "3", "4", "5", "6"]
+        
     var body: some View {
         HStack {
-            CardView(text: "1")
-            CardView(text: "2")
-            CardView(text: "3")
-            CardView(text: "4")
+            ForEach(contentCards.indices, id: \.self) { index in
+                CardView(content: contentCards[index])
+            }
         }
         .foregroundColor(.orange)
         .padding()
-    }
-}
-
-struct CardView: View {
-    var text: String = ""
-    
-    var body: some View {
-        ZStack{
-            RoundedRectangle(cornerRadius: 12).foregroundColor(.white)
-            RoundedRectangle(cornerRadius: 12).strokeBorder(lineWidth: 2)
-            Text(text).font(.largeTitle)
-        }
-       
     }
 }
 
