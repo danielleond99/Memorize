@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CAAB33942C5D399F00DD4AEA /* ContentViewAssignmentI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAB33932C5D399F00DD4AEA /* ContentViewAssignmentI.swift */; };
 		CABFF3222BE54B5100160019 /* MemorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABFF3212BE54B5100160019 /* MemorizeApp.swift */; };
 		CABFF3242BE54B5100160019 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABFF3232BE54B5100160019 /* ContentView.swift */; };
 		CABFF3262BE54B5200160019 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CABFF3252BE54B5200160019 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CAAB33932C5D399F00DD4AEA /* ContentViewAssignmentI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewAssignmentI.swift; sourceTree = "<group>"; };
 		CABFF31E2BE54B5100160019 /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CABFF3212BE54B5100160019 /* MemorizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeApp.swift; sourceTree = "<group>"; };
 		CABFF3232BE54B5100160019 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 		CABFF3202BE54B5100160019 /* Memorize */ = {
 			isa = PBXGroup;
 			children = (
+				CAAB33932C5D399F00DD4AEA /* ContentViewAssignmentI.swift */,
 				CABFF3212BE54B5100160019 /* MemorizeApp.swift */,
 				CABFF3232BE54B5100160019 /* ContentView.swift */,
 				CAE721D62BEAC331005FA8A1 /* CardView.swift */,
@@ -143,6 +146,7 @@
 				CABFF3242BE54B5100160019 /* ContentView.swift in Sources */,
 				CAE721D72BEAC331005FA8A1 /* CardView.swift in Sources */,
 				CABFF3222BE54B5100160019 /* MemorizeApp.swift in Sources */,
+				CAAB33942C5D399F00DD4AEA /* ContentViewAssignmentI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,9 +295,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.danielleond99.memorize.Memorize;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -320,9 +328,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.danielleond99.memorize.Memorize;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
