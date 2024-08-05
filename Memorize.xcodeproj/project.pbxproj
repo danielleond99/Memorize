@@ -13,6 +13,8 @@
 		CABFF3262BE54B5200160019 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CABFF3252BE54B5200160019 /* Assets.xcassets */; };
 		CABFF3292BE54B5200160019 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CABFF3282BE54B5200160019 /* Preview Assets.xcassets */; };
 		CAE721D72BEAC331005FA8A1 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE721D62BEAC331005FA8A1 /* CardView.swift */; };
+		CAEA67862C5DAD4400A47F6D /* MemorizeGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEA67852C5DAD4400A47F6D /* MemorizeGame.swift */; };
+		CAEA67882C5DADB700A47F6D /* EmojiMemorizeGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEA67872C5DADB700A47F6D /* EmojiMemorizeGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		CABFF3252BE54B5200160019 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CABFF3282BE54B5200160019 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CAE721D62BEAC331005FA8A1 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		CAEA67852C5DAD4400A47F6D /* MemorizeGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeGame.swift; sourceTree = "<group>"; };
+		CAEA67872C5DADB700A47F6D /* EmojiMemorizeGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemorizeGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 		CABFF3202BE54B5100160019 /* Memorize */ = {
 			isa = PBXGroup;
 			children = (
+				CAEA67872C5DADB700A47F6D /* EmojiMemorizeGame.swift */,
+				CAEA67852C5DAD4400A47F6D /* MemorizeGame.swift */,
 				CAAB33932C5D399F00DD4AEA /* ContentViewAssignmentI.swift */,
 				CABFF3212BE54B5100160019 /* MemorizeApp.swift */,
 				CABFF3232BE54B5100160019 /* ContentView.swift */,
@@ -145,7 +151,9 @@
 			files = (
 				CABFF3242BE54B5100160019 /* ContentView.swift in Sources */,
 				CAE721D72BEAC331005FA8A1 /* CardView.swift in Sources */,
+				CAEA67882C5DADB700A47F6D /* EmojiMemorizeGame.swift in Sources */,
 				CABFF3222BE54B5100160019 /* MemorizeApp.swift in Sources */,
+				CAEA67862C5DAD4400A47F6D /* MemorizeGame.swift in Sources */,
 				CAAB33942C5D399F00DD4AEA /* ContentViewAssignmentI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
