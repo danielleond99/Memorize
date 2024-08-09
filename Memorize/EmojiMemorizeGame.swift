@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct EmojiMemorizeGame {
+class EmojiMemorizeGame: ObservableObject {
     private static let emojis = ["😓", "😌", "👻", "😎", "😭", "👻", "🇷🇪", "❤️", "🩷", "🇩🇴"]
     
     private static func createMemorizeGame() -> MemorizeGame<String>{
      return MemorizeGame(
-        numberPairsOfCard: 4)
+        numberPairsOfCard: 10)
         {index in
             if emojis.indices.contains(index){
                 return emojis[index]
@@ -24,14 +24,20 @@ struct EmojiMemorizeGame {
     
 
     
-    private var model = createMemorizeGame()
+    @Published private var model = createMemorizeGame()
     
     var cards: Array<MemorizeGame<String>.Card> {
-        return  model.cards
+        return model.cards
     }
+    
+    // MARK: - Intents
     
     func choose(_ card: MemorizeGame<String>.Card) {
        return model.choose(card: card)
+    }
+    
+    func shuffle() {
+        model.shuffle()
     }
     
 }

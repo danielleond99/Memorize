@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA8E8FA62C6130F700A53BC8 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8E8FA52C6130F700A53BC8 /* CardView.swift */; };
 		CAAB33942C5D399F00DD4AEA /* ContentViewAssignmentI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAB33932C5D399F00DD4AEA /* ContentViewAssignmentI.swift */; };
 		CABFF3222BE54B5100160019 /* MemorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABFF3212BE54B5100160019 /* MemorizeApp.swift */; };
 		CABFF3242BE54B5100160019 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABFF3232BE54B5100160019 /* ContentView.swift */; };
 		CABFF3262BE54B5200160019 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CABFF3252BE54B5200160019 /* Assets.xcassets */; };
 		CABFF3292BE54B5200160019 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CABFF3282BE54B5200160019 /* Preview Assets.xcassets */; };
-		CAE721D72BEAC331005FA8A1 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE721D62BEAC331005FA8A1 /* CardView.swift */; };
 		CAEA67862C5DAD4400A47F6D /* MemorizeGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEA67852C5DAD4400A47F6D /* MemorizeGame.swift */; };
 		CAEA67882C5DADB700A47F6D /* EmojiMemorizeGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEA67872C5DADB700A47F6D /* EmojiMemorizeGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA8E8FA52C6130F700A53BC8 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		CAAB33932C5D399F00DD4AEA /* ContentViewAssignmentI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewAssignmentI.swift; sourceTree = "<group>"; };
 		CABFF31E2BE54B5100160019 /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CABFF3212BE54B5100160019 /* MemorizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeApp.swift; sourceTree = "<group>"; };
 		CABFF3232BE54B5100160019 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CABFF3252BE54B5200160019 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CABFF3282BE54B5200160019 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		CAE721D62BEAC331005FA8A1 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		CAEA67852C5DAD4400A47F6D /* MemorizeGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeGame.swift; sourceTree = "<group>"; };
 		CAEA67872C5DADB700A47F6D /* EmojiMemorizeGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemorizeGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,8 +63,8 @@
 				CAEA67852C5DAD4400A47F6D /* MemorizeGame.swift */,
 				CAAB33932C5D399F00DD4AEA /* ContentViewAssignmentI.swift */,
 				CABFF3212BE54B5100160019 /* MemorizeApp.swift */,
+				CA8E8FA52C6130F700A53BC8 /* CardView.swift */,
 				CABFF3232BE54B5100160019 /* ContentView.swift */,
-				CAE721D62BEAC331005FA8A1 /* CardView.swift */,
 				CABFF3252BE54B5200160019 /* Assets.xcassets */,
 				CABFF3272BE54B5200160019 /* Preview Content */,
 			);
@@ -150,10 +150,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CABFF3242BE54B5100160019 /* ContentView.swift in Sources */,
-				CAE721D72BEAC331005FA8A1 /* CardView.swift in Sources */,
 				CAEA67882C5DADB700A47F6D /* EmojiMemorizeGame.swift in Sources */,
 				CABFF3222BE54B5100160019 /* MemorizeApp.swift in Sources */,
 				CAEA67862C5DAD4400A47F6D /* MemorizeGame.swift in Sources */,
+				CA8E8FA62C6130F700A53BC8 /* CardView.swift in Sources */,
 				CAAB33942C5D399F00DD4AEA /* ContentViewAssignmentI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

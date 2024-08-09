@@ -8,11 +8,10 @@
 import SwiftUI
 
 struct CardView: View {
-    @State var isFaceUp = false
-    var content = ""
+    let card: MemorizeGame<String>.Card
     
-    func handleOnTap() {
-        isFaceUp.toggle()
+    init(_ card: MemorizeGame<String>.Card) {
+        self.card = card
     }
     
     var body: some View {
@@ -21,9 +20,10 @@ struct CardView: View {
             Group{
                 baseRoundedRectangle.foregroundColor(.white)
                 baseRoundedRectangle.strokeBorder(lineWidth: 2)
-                Text(content).font(.largeTitle)
-            }.opacity(isFaceUp ? 1 : 0)
-            baseRoundedRectangle.fill().opacity(isFaceUp ? 0 : 1)
-        }.onTapGesture(perform: handleOnTap)
+                Text(card.content).font(.largeTitle)
+            }.opacity(card.isFaceUp ? 1 : 0)
+            baseRoundedRectangle.fill().opacity(card.isFaceUp ? 0 : 1)
+        }
+        .opacity(card.isFaceUp || !card.isMatched ? 1 : 0)
     }
 }
