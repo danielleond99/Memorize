@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA5A6E0F2C6963A400058F4B /* AdaptativeGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5A6E0E2C6963A400058F4B /* AdaptativeGridView.swift */; };
 		CA8E8FA62C6130F700A53BC8 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8E8FA52C6130F700A53BC8 /* CardView.swift */; };
 		CAAB33942C5D399F00DD4AEA /* ContentViewAssignmentI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAB33932C5D399F00DD4AEA /* ContentViewAssignmentI.swift */; };
 		CABFF3222BE54B5100160019 /* MemorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABFF3212BE54B5100160019 /* MemorizeApp.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA5A6E0E2C6963A400058F4B /* AdaptativeGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptativeGridView.swift; sourceTree = "<group>"; };
 		CA8E8FA52C6130F700A53BC8 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		CAAB33932C5D399F00DD4AEA /* ContentViewAssignmentI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewAssignmentI.swift; sourceTree = "<group>"; };
 		CABFF31E2BE54B5100160019 /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,6 +61,7 @@
 		CABFF3202BE54B5100160019 /* Memorize */ = {
 			isa = PBXGroup;
 			children = (
+				CA5A6E0E2C6963A400058F4B /* AdaptativeGridView.swift */,
 				CAEA67872C5DADB700A47F6D /* EmojiMemorizeGame.swift */,
 				CAEA67852C5DAD4400A47F6D /* MemorizeGame.swift */,
 				CAAB33932C5D399F00DD4AEA /* ContentViewAssignmentI.swift */,
@@ -151,6 +154,7 @@
 			files = (
 				CABFF3242BE54B5100160019 /* ContentView.swift in Sources */,
 				CAEA67882C5DADB700A47F6D /* EmojiMemorizeGame.swift in Sources */,
+				CA5A6E0F2C6963A400058F4B /* AdaptativeGridView.swift in Sources */,
 				CABFF3222BE54B5100160019 /* MemorizeApp.swift in Sources */,
 				CAEA67862C5DAD4400A47F6D /* MemorizeGame.swift in Sources */,
 				CA8E8FA62C6130F700A53BC8 /* CardView.swift in Sources */,
