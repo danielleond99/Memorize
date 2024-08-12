@@ -54,7 +54,7 @@ struct MemorizeGame<ContentCard> where ContentCard: Equatable {
     
     struct Card: Equatable, Identifiable {
         var id: String
-        var isFaceUp = false
+        var isFaceUp = true
         var isMatched = false
         let content: ContentCard
     }

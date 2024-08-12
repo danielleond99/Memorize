@@ -12,7 +12,7 @@ class EmojiMemorizeGame: ObservableObject {
     
     private static func createMemorizeGame() -> MemorizeGame<String>{
      return MemorizeGame(
-        numberPairsOfCard: 13)
+        numberPairsOfCard: 12)
         {index in
             if emojis.indices.contains(index){
                 return emojis[index]
